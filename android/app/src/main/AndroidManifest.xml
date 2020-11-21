@@ -14,7 +14,10 @@
     <application
         android:name=".MyApplication"
         android:label="flutterser"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+
+
+        >
         <service android:name=".MyService" android:exported="true" android:enabled="true"/>
         <activity
             android:name=".MainActivity"

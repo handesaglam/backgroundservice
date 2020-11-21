@@ -15,8 +15,8 @@ public class MyService extends Service {
         super.onCreate();
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O){
             NotificationCompat.Builder builder = new NotificationCompat.Builder(this,"messages")
-                    .setContentText("Haberdar olacaksınız ")
-                    .setContentTitle("Taziye sisteminden")
+                    .setContentText("Zamanı geldiğinde ")
+                    .setContentTitle("Seni haberdar edeceğim :))")
                     .setSmallIcon(R.mipmap.ic_launcher);
 
             startForeground(101,builder.build());
